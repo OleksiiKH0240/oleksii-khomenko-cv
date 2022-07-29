@@ -147,7 +147,34 @@ body{
     color: #595959;
 }
 
+/* languages block styles */
+.languages{
+    margin-bottom: 40px;
+}
+
+.languages_list{
+    padding: 0px;
+    margin-left: 16px;
+}
+
+.languages_item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.language{
+    color: #FB6D3A;
+}
+
 /* education block styles */
+.education{
+    margin-bottom: 40px;
+}
+
 .education_list{
     padding: 0px;
     margin-left: 16px;
@@ -182,6 +209,31 @@ body{
     margin-bottom: 10px;
 }
 
+/* additional education block styles */
+.additional_education_list{
+    padding: 0px;
+    margin-left: 16px;
+}
+
+.additional_education_item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.additional_education_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
 /* sidebar block styles */
 .sidebar{
     background: #1E2939;
@@ -204,18 +256,18 @@ body{
     margin-bottom: 10px;
 }
 
-.contacts, .links, .tech_skills, .soft_skills{
+.contacts, .links, .tech_skills, .soft_skills, .hobbies{
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.contacts, .links{
+.contacts, .links, .tech_skills, .soft_skills{
     margin-bottom: 50px;
 }
 
-.tech_skills{
+/* .tech_skills{
     margin-bottom: 40px;
-}
+} */
 
 /* contact styles */
 .contact_type, .link_type{
@@ -289,3 +341,12 @@ body{
     color: #FFFFFF;
 }
 
+/* hobbies styles */
+.hobbies_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
