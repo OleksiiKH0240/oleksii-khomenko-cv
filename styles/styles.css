@@ -65,6 +65,17 @@ body{
     width: 400px;
 }
 
+.description_list{
+    padding: 0%;
+    /* margin-left: 0px; */
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+.description_item{
+    color: #000000;
+}
+
 /* work block styles */
 .work{
     margin-bottom: 40px;
