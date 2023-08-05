@@ -1,11 +1,11 @@
 /* whole document */
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background: #F5F7FA;
 }
 
 /* main block styles */
-.main{
+.main {
     display: flex;
     flex-direction: row-reverse;
     width: 1280px;
@@ -13,29 +13,29 @@ body{
 }
 
 /* main content block styles */
-.main_content{
+.main_content {
     background: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(11, 198, 255, 0.377);
     padding: 105px 90px;
 }
 
 /* main content block titles styles */
-.title{
+.title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    
+
     color: #000000;
     margin-bottom: 10px;
 }
 
 /* about_user block styles */
-.about_user{
+.about_user {
     margin-bottom: 40px;
 }
 
-.about_possition{
+.about_possition {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -45,7 +45,7 @@ body{
     margin-bottom: 20px;
 }
 
-.about_name{
+.about_name {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -55,210 +55,275 @@ body{
     margin-bottom: 25px;
 }
 
-.about_description{
+.about_description {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #595959;
     width: 400px;
 }
 
-.description_list{
+.description_list {
     padding: 0%;
     /* margin-left: 0px; */
     list-style-type: lower-roman;
     list-style-position: inside;
 }
 
-.description_item{
+.description_item {
     color: #000000;
 }
 
 /* work block styles */
-.work{
+.work {
     margin-bottom: 40px;
 }
 
-.work_possiton{
+.work_possiton {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
+
     color: #000000;
     margin-bottom: 10px;
 }
 
-.organization{
+.organization {
     color: #FB6D3A;
 }
 
-.period{
+.period {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    
+
     color: #A8A8A8;
     margin-bottom: 10px;
 }
 
-.line{
+.line {
     color: #000000;
 }
 
-.work_list{
+.work_list {
     padding: 0px;
     margin-left: 16px;
 }
 
-.work_list_item{
+.work_list_item {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #595959;
 }
 
 /* it experience block styles */
-.it_experience{
+.it_experience {
     margin-bottom: 40px;
 }
 
 /* projects block styles */
 
-.projects_list{
+.projects_list {
     padding: 0px;
     margin-left: 16px;
 }
 
-.projects_item, .project_name{
+.projects_item,
+.project_name {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
-.project_name{
+.project_name {
     color: #FB6D3A;
 }
 
-.technologies_list, 
-.project_link{
+.technologies_list,
+.project_link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #595959;
 }
 
 /* languages block styles */
-.languages{
+.languages {
     margin-bottom: 40px;
 }
 
-.languages_list{
+.languages_list {
     padding: 0px;
     margin-left: 16px;
 }
 
-.languages_item{
+.languages_item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
-.language{
+.language {
     color: #FB6D3A;
 }
 
 /* education block styles */
-.education{
+.education {
     margin-bottom: 40px;
 }
 
-.education_list{
+.education_list {
     padding: 0px;
     margin-left: 16px;
 }
 
-.education_item{
+.education_item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
-.place_of_study{
+.place_of_study {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
+
     color: #FB6D3A;
     margin-bottom: 10px;
 }
 
-.specialization{
+.specialization {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    
+
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.education_details_list {
+    color: #fff;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.detail_item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FB6D3A;
+}
+
+.detail_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* organizations block styles */
+.organization {
+    margin-bottom: 40px;
+}
+
+.organization_list {
+    padding: 0px;
+    margin-left: 16px;
+}
+
+.organization_item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
     color: #000000;
     margin-bottom: 10px;
 }
 
 /* additional education block styles */
-.additional_education_list{
+.additional_education_list {
     padding: 0px;
     margin-left: 16px;
 }
 
-.additional_education_item{
+.additional_education_item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
-.additional_education_name{
+.additional_education_name {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
+
     color: #FB6D3A;
     margin-bottom: 10px;
 }
 
 /* sidebar block styles */
-.sidebar{
+.sidebar {
     background: #1E2939;
     padding-top: 40px;
     width: 370px;
 }
 
-.user_photo{
+.user_photo {
     width: 370px;
     margin-bottom: 50px;
-    
+
 }
 
-.sidebar_headers{
+.sidebar_headers {
     color: #fff;
     font-style: normal;
     font-weight: 700;
@@ -267,12 +332,19 @@ body{
     margin-bottom: 10px;
 }
 
-.contacts, .links, .tech_skills, .soft_skills, .hobbies{
+.contacts,
+.links,
+.tech_skills,
+.soft_skills,
+.hobbies {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.contacts, .links, .tech_skills, .soft_skills{
+.contacts,
+.links,
+.tech_skills,
+.soft_skills {
     margin-bottom: 50px;
 }
 
@@ -281,18 +353,20 @@ body{
 } */
 
 /* contact styles */
-.contact_type, .link_type{
+.contact_type,
+.link_type {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
 
     color: #FFFFFF;
-    
+
     margin-right: 9px;
 }
 
-.contact_link, .link{
+.contact_link,
+.link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -303,13 +377,13 @@ body{
 }
 
 /* tech skills list styles */
-.tech_skills_list{
+.tech_skills_list {
     color: #fff;
     padding: 0;
     margin-left: 17px;
 }
 
-.tech_skills_item{
+.tech_skills_item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -318,7 +392,7 @@ body{
     color: #FB6D3A;
 }
 
-.tech_skills_text{
+.tech_skills_text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -328,13 +402,13 @@ body{
 }
 
 /* soft skills list styles */
-.soft_skills_list{
+.soft_skills_list {
     color: #fff;
     padding: 0;
     margin-left: 17px;
 }
 
-.soft_skills_item{
+.soft_skills_item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -343,7 +417,7 @@ body{
     color: #FB6D3A;
 }
 
-.soft_skills_text{
+.soft_skills_text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -353,7 +427,7 @@ body{
 }
 
 /* hobbies styles */
-.hobbies_text{
+.hobbies_text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -364,39 +438,40 @@ body{
 
 /* collapsible styles */
 .collapsible {
-  /* background-color: #777; */
-  background-color: #ffffff;
-  /* color: white; */
-  cursor: pointer;
-  padding: 0px;
-  /* padding: 18px; */
-  /* width: 100%; */
-  border: none;
-  text-align: left;
-  outline: none;
-  /* font-size: 15px; */
+    /* background-color: #777; */
+    background-color: #ffffff;
+    /* color: white; */
+    cursor: pointer;
+    padding: 0px;
+    /* padding: 18px; */
+    /* width: 100%; */
+    border: none;
+    text-align: left;
+    outline: none;
+    /* font-size: 15px; */
 }
 
-.active, .collapsible:hover {
-  background-color: #cfcfcf;
+.active,
+.collapsible:hover {
+    background-color: #cfcfcf;
 }
 
 .collapsible:after {
-  content: '\002B';
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-  content: "\2212";
+    content: "\2212";
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  /* background-color: #f1f1f1; */
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* background-color: #f1f1f1; */
 }
